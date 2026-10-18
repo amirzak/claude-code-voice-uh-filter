@@ -12,6 +12,15 @@ To keep a literal "um" in a prompt, put it in backticks.
 
 The desktop app draws its own prompt box, so there the cleanup happens only when you send.
 
+## Hooks
+
+The mod is one hooks module, `hooks/register.ts`, with two hooks:
+
+- `prompt.submit`: rewrites the text of every prompt you send, removing fillers and stutter repeats. It skips slash commands and prompts Claude Code sends on its own. Since `prompt.submit` is also a call other plugins can make (`$.prompt.submit`), prompts that other plugins submit pass through this cleanup too.
+- `prompt.edit`: in the terminal prompt box, cleans text that lands in one go (dictation, a paste of plain prose) and drops a filler word when you type the space after it. Pasted code and anything inside backticks is left as is.
+
+It reads no files, runs no commands, and sends nothing anywhere.
+
 ## Install
 
 At the prompt of a terminal Claude Code session:
@@ -37,3 +46,7 @@ claude plugin validate .
 claude plugin test .
 claude --plugin-dir .
 ```
+
+## License
+
+MIT

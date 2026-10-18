@@ -1,6 +1,8 @@
 {
   "name": "uh-filter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Strips spoken filler words (uh, um, hmm, mm) and stutter repeats from prompts before they reach the model",
-  "author": { "name": "amirzak" }
+  "author": { "name": "amirzak" },
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png"
 }
