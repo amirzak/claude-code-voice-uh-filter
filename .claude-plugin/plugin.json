@@ -1,0 +1,6 @@
+{
+  "name": "uh-filter",
+  "version": "0.1.0",
+  "description": "Strips spoken filler words (uh, um, hmm, mm) and stutter repeats from prompts before they reach the model",
+  "author": { "name": "amirzak" }
+}

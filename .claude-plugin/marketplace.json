@@ -1,0 +1,6 @@
+{
+  "name": "claude-code-voice-uh-filter",
+  "owner": { "name": "amirzak" },
+  "metadata": { "description": "Claude Code mod that strips spoken filler words from voice-dictated prompts" },
+  "plugins": [{ "name": "uh-filter", "source": "./" }]
+}
