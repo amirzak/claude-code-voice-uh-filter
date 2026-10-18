@@ -1,8 +1,13 @@
 {
   "name": "uh-filter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Strips spoken filler words (uh, um, hmm, mm) and stutter repeats from prompts before they reach the model",
   "author": { "name": "amirzak" },
   "license": "MIT",
-  "icon": ".claude-plugin/icon.png"
+  "icon": ".claude-plugin/icon.png",
+  "homepage": "https://github.com/amirzak/claude-code-voice-uh-filter",
+  "repository": "https://github.com/amirzak/claude-code-voice-uh-filter",
+  "documentationUrl": "https://github.com/amirzak/claude-code-voice-uh-filter#readme",
+  "supportUrl": "https://github.com/amirzak/claude-code-voice-uh-filter/issues",
+  "privacyPolicyUrl": "https://github.com/amirzak/claude-code-voice-uh-filter/blob/main/PRIVACY.md"
 }
